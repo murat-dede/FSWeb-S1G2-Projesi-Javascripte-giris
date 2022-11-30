@@ -185,8 +185,21 @@ Aşağdakileri notHesapla fonksiyonunda yapın.
  dönün
 */
 
-function notHesapla(/*buraya kodunu yazabilirsin*/){
-/*buraya kodunu yazabilirsin*/
+function notHesapla(not){
+  if(not>90)
+  console.log('A aldın');{
+    else if (not<90)
+    console.log('B aldın');{
+      else if (not<80)
+      console.log('C aldın');{
+        else if (not<70)
+        console.log('D aldın');{
+          else 
+          console.log('F aldın');
+        }
+      }
+    }
+  }
 }
 
 
