@@ -39,8 +39,8 @@ Aşağıdakileri yapınız:
 */
 let birinciDeger = 25;
 let ikinciDegeri = 10;
-if (birinciDeger === ikinciDegeri) {
-birinciDeger = 20;
+if (birinciDeger===ikinciDegeri) {
+ birinciDeger = 20;
 } console.log(birinciDeger);
 
 
@@ -114,9 +114,31 @@ Aşağıdakileri oyun isimli fonksiyonu kullanarak yapın.
 
 OYUNUN KURALLARI: Makas Kağıdı yener| Kağıt Taşı yener | Taş Makas'ı yener | veya beraberlik olur.
 */
+function bilgisayarHamlesi(){
+//Math.random();
+let deger=Math.floor(Math.rendom()*3);
+let sonuc="";
+if(deger===1){
+sonuc="Taş";
+}else if (deger===2){
+  sonuc="Kağıt";
+}else {
+  sonuc="Makas"}
+}
+function oyun(oyuncuHamlesi, bilgisayarHamlesi){
+  let sonuc1 ="Kazandın!";
+  let sonuc2 ="Kaybettin!";
+  let sonuc3 ="Beraberlik";
 
-function oyun(oyuncu, bilgisayar){
-  /*buraya kodunu yazabilirsin*/
+  if (oyuncuHamlesi ==="Taş" && bilgisayar Hamlesi==="Makas")
+  (oyuncuHamlesi==="Makas"&& bilgisayarHamlesi=== "Kağıt")
+  (oyuncuHamlesi==="Kağıt" && bilgisayarHamlesi=== "Taş")
+  {return sonuc1;}
+else if(oyuncuHamlesi===bilgisayarHamlesi){
+  return sonuc3
+}else {return sonuc2;
+}
+ 
 }
 
 
