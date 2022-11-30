@@ -19,6 +19,10 @@ Aşağıdakileri yapın:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
+const surucuYasi = 25;
+if (surucuYasi>18) {
+  console.log('True');
+} else ('False')
 
 
 
@@ -33,7 +37,11 @@ Aşağıdakileri yapınız:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
-
+let birinciDeger = 25;
+let ikinciDegeri = 10;
+if (birinciDeger > ikinciDegeri) {
+let birinciDeger = 20;
+} console.log(birinciDeger);
 
 
 
@@ -48,7 +56,9 @@ Aşağıdakileri yapın:
 
    İPUCU: Number metoduna bakabilirsin
 */
+const quantity = "1999";
 
+console.log(+quantity);
 
 
 
@@ -61,9 +71,10 @@ Aşağıdakileri yapın:
    3. a ve b'yi çarpıp, sonucu dönün
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+function carpma(a,b){
+  return (a*b);
 }
+carpma(2,3);
 
 
 
@@ -77,8 +88,8 @@ Aşağıdakileri yapın:
  3. Hesaplanan köpeğin yaşını dönün.
  */
 
-function kopeginYasi(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+function kopeginYasi(x){
+ return (x*7);
 }
 
 
@@ -120,8 +131,8 @@ Aşağdakileri milDonusturucu fonksiyonunu kullanarak yapın:
 3. Mil değerini geri dönün
 */
 
-function milDonusturucu(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+function milDonusturucu(KM){
+ return (KM/6);
 }
 
 
@@ -134,8 +145,8 @@ Aşağıdakileri feetDonusturucu fonsiyonunu kullanarak yapın:
 3. feet değerini geri dönün
 */
 
-function feetDonusturucu(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+function feetDonusturucu(CM){
+  return (CM/30);
 }
 
 
@@ -154,7 +165,8 @@ Aşağıdakileri cocukSarkisi fonksiyonunda yapın:
 */
 
 function cocukSarkisi(/*buraya kodunu yazabilirsin*/){
-      /*buraya kodunu yazabilirsin*/
+  for (let i = 5; i > 0; i--)
+  console.log(i+" "+"küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!")
 }
 
 
