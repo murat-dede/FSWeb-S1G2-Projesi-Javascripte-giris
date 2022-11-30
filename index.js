@@ -39,8 +39,8 @@ Aşağıdakileri yapınız:
 */
 let birinciDeger = 25;
 let ikinciDegeri = 10;
-if (birinciDeger > ikinciDegeri) {
-let birinciDeger = 20;
+if (birinciDeger === ikinciDegeri) {
+birinciDeger = 20;
 } console.log(birinciDeger);
 
 
